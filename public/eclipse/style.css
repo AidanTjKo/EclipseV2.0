@@ -234,3 +234,12 @@ nav{
 {
     transform: none;
 }
+
+#gif img{
+    text-align:right;
+    padding:20px;
+}
+
+#gif h1{
+    padding:30px;
+}

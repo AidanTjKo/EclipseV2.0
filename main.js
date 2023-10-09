@@ -65,7 +65,7 @@ const moonTexture = new THREE.TextureLoader().load('images/moon.jpg');
 const normalTexture = new THREE.TextureLoader().load('images/normal.jpg');
 
 const moon = new THREE.Mesh(
-  new THREE.SphereGeometry(0.4, 32, 32),
+  new THREE.SphereGeometry(0.6, 32, 32),
   new THREE.MeshStandardMaterial({
     map: moonTexture,
     normalMap: normalTexture,
@@ -126,7 +126,7 @@ function moveCamera(){
 document.body.onscroll = moveCamera;
 
 moon.position.z = 0;
-moon.position.y = 0.5;
+moon.position.y = 0.7;
 moon.position.setX(-10);
 function animate(){
   t += 1;
