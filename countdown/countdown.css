@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/public/launchIMG/eclipseBg.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+    position: relative;
+}
+
+.content{
+    top:50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #fff;    
+    background-color: rgba(0, 0, 0, 0.388);
+    padding:50px;
+    border-radius: 20px;
+}
+
+.content h1{
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.content h1 span{
+    color: #ff3753;
+}
+
+.content button{
+    background: transparent;
+    border: 2px solid #fff;
+    outline:none;
+    padding: 12px 25px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.content button img{
+    width:15px;
+    margin-left:10px;
+}
+
+.launch-time{
+    display: flex;
+}
+
+.launch-time div{
+    flex-basis: 100px;
+}
+
+.launch-time div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+} 
+
+.content p{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.launch-time span{
+    padding-left:15px;
+}
+
