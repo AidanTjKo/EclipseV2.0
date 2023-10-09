@@ -107,7 +107,7 @@ var t = 0;
 
 function moveCamera(){
 
-  const t = document.body.getBoundingClientRect().top;
+  const t = document.body.getBoundingClientRect().bottom;
   // moon.rotation.x += 0.05;
   moon.rotation.y += 0.075;
   //moon.rotation.z += 0.05;
@@ -119,8 +119,8 @@ function moveCamera(){
   camera.position.x = t*-0.002;
   camera.position.y = t*-0.0002;
 
-  moon.position.z = 40 * Math.cos(t*0.00278);
-  moon.position.x = 40 * Math.sin(t*0.00285);
+  moon.position.z = 40 * Math.cos(t*0.0028);
+  moon.position.x = 40 * Math.sin(t*0.00288);
 
 }
 document.body.onscroll = moveCamera;
