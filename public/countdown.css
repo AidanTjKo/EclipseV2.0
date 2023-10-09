@@ -8,7 +8,7 @@
 .container{
     width: 100vw;
     height: 100vh;
-    background-image: url("/public/launchIMG/eclipseBg.jpg");
+    background-image: url("/public/img/eclipseBg.jpg");
     background-position: center;
     background-size: cover;
     padding: 0 8%;
