@@ -89,7 +89,6 @@ html, body {
 nav{
     top:0;
     position:sticky;
-    height:300;
 }
 
 
@@ -238,8 +237,10 @@ nav{
 #gif img{
     text-align:right;
     padding:20px;
+    position: relative;
 }
 
 #gif h1{
     padding:30px;
 }
+

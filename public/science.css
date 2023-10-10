@@ -325,6 +325,7 @@ nav{
   top:0;
   position:sticky;
   height:300;
+  z-index: 100;
 }
 
 
@@ -334,9 +335,7 @@ nav{
   position: relative;
   top: 50px;
   left: 50px;
-  
-  z-index: 1;
-  
+    
   -webkit-user-select: none;
   user-select: none;
 }
